@@ -7,7 +7,7 @@
 ### Site Settings ###
 title               : Yuxi Tian (Yvette Tian) 
 description         : >-
-                      Stay Focused
+                      Stay 🌍 Focused
 baseurl             : ""   # Change to empty quotes if you are hosting your site at <your-username>.github.io directly,
 #                                             otherwise will be hosted at <your-username>.github.io/{{base_url}}
 repository          :                     # Change to <your-username>/<your-username>.github.io (or remove it if you don't need remote projects) -- for example, I would put "jnaiman" without the quotes after the ":" here
@@ -38,9 +38,9 @@ author:
   image             : https://upload.wikimedia.org/wikipedia/en/3/3b/SpongeBob_SquarePants_main_characters.png
 #  behance           : your_username
 # dribbble          : your_username
-  email             : username@domain.com
+  email             : yuxit2@illinois.edu
 #  facebook          : your_username
-  github            : jnaiman # JPN
+  github            : yuxit2 # JPN
 # gitlab            : your_username
 # instagram         : your_username
 # kaggle            : your_username
