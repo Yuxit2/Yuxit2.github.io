@@ -1,8 +1,5 @@
 
-- name: R studio
-
 - name: RStudio
-
   percentage: 90
   level: Expert
   color: success
