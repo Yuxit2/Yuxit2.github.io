@@ -1,8 +1,8 @@
-<<<<<<< HEAD
+
 - name: R studio
-=======
+
 - name: RStudio
->>>>>>> 59d8d27 (week10 changes)
+
   percentage: 90
   level: Expert
   color: success
@@ -18,13 +18,13 @@
   color: warning
 
 - name: Python
-<<<<<<< HEAD
+
   percentage: 90
   level: Expert
   color: secondary
-=======
+
   percentage: 70
   level: Medium
   color: primary
   
->>>>>>> 59d8d27 (week10 changes)
+
