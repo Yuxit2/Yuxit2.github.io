@@ -5,12 +5,18 @@
 # NOTE: it looks like you need to rebuild + repush everytime you update this _config.yml file
 
 ### Site Settings ###
+<<<<<<< HEAD
 title               : Yuxi Tian (Yvette Tian) 
 description         : >-
                       Stay 🌍 Focused
+=======
+title               : Yuxi Tian's 🌍 Universe 
+description         : >-
+                      Nobody can DEFINDS Me!
+>>>>>>> 59d8d27 (week10 changes)
 baseurl             : ""   # Change to empty quotes if you are hosting your site at <your-username>.github.io directly,
 #                                             otherwise will be hosted at <your-username>.github.io/{{base_url}}
-repository          :                     # Change to <your-username>/<your-username>.github.io (or remove it if you don't need remote projects) -- for example, I would put "jnaiman" without the quotes after the ":" here
+repository          : yuxit2                    # Change to <your-username>/<your-username>.github.io (or remove it if you don't need remote projects) -- for example, I would put "jnaiman" without the quotes after the ":" here
 open_new_tab        : false                             # Opens external URLs in new tab (works for posts, projects and navbar only)
 
 
@@ -40,9 +46,15 @@ author:
 # dribbble          : your_username
   email             : yuxit2@illinois.edu
 #  facebook          : your_username
+<<<<<<< HEAD
   github            : yuxit2 # JPN
 # gitlab            : your_username
 # instagram         : y_vette0002
+=======
+  github            : Yuxit2
+# gitlab            : your_username
+  instagram         : y_vette0002
+>>>>>>> 59d8d27 (week10 changes)
 # kaggle            : your_username
 #  linkedin          : your_username
 #  medium            : your_username

@@ -22,12 +22,12 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   <meta property="og:type" content="website">
-  <meta property="og:title" content="Tags">
-  <meta property="og:description" content="Nobody can DEFINDS Me!">
-  <meta property="og:image" content="https://upload.wikimedia.org/wikipedia/en/3/3b/SpongeBob_SquarePants_main_characters.png">
+  <meta property="og:title" content="Example in class">
+  <meta property="og:description" content="Ongoing example">
+  <meta property="og:image" content="assets/pngs/cars.png">
 
-  <title>Tags</title>
-  <meta name="description" content="Nobody can DEFINDS Me!">
+  <title>Example in class</title>
+  <meta name="description" content="Ongoing example">
 
   <link rel="shortcut icon" type="image/x-icon" href="/assets/favicon.ico">
 
@@ -60,9 +60,9 @@
   </button>
 
   <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-    <div class="navbar-nav ml-auto"><a class="nav-item nav-link " href="/projects/">Projects</a>
+    <div class="navbar-nav ml-auto"><a class="nav-item nav-link active" href="/projects/">Projects</a>
 
-      <a class="nav-item nav-link active" href="/blog/">Blog</a>
+      <a class="nav-item nav-link " href="/blog/">Blog</a>
 
       <a class="nav-item nav-link " href="/about/">About</a>
 
@@ -74,27 +74,24 @@
 
 </nav>
     <div class="col-lg-10 mx-auto mt-5 markdown-body">
-  <!-- Collect tags from all posts --><!-- List tags & related posts -->
+  <h1 id="example-including-vega-lite">Example including vega-lite</h1>
 
-<div class="py-3">
-  <h4 id="blogging">Blogging</h4>
-  <ol>
-  <a href="/blog/hello-blog-world"><li>The Hello World of Blogs</li></a>
-    <small class="text-muted"> - 22 August 2022</small>
-    <br/>
-  </ol>
-</div>
-<hr class="bg-light">
+<vegachart schema-url="/assets/json/cars.json" style="width: 100%"></vegachart>
 
-<div class="py-3">
-  <h4 id="technology">Technology</h4>
-  <ol>
-  <a href="/blog/hello-blog-world"><li>The Hello World of Blogs</li></a>
-    <small class="text-muted"> - 22 August 2022</small>
-    <br/>
-  </ol>
+<!-- these are written in a combo of html and liquid -->
+
+<div class="left">
+<a class="m-1 btn btn-outline-primary btn-2 " href="https://github.com/vega/vega/blob/main/docs/data/cars.json">
+  The Data
+</a>
 </div>
-<hr class="bg-light">
+
+<div class="right">
+<a class="m-1 btn btn-outline-primary btn-2 " href="https://github.com/jnaiman/online_cv_public/blob/main/python_notebooks/test_generate_plots.ipynb">
+  The Analysis
+</a>
+</div>
+
 
 </div>
   </main>
@@ -144,6 +141,17 @@
 
 </footer>
 
+
+<!-- Custom page specific js files -->
+  
+    <script src='/assets/js/vega.min.js' type="text/javascript"></script>
+  
+    <script src='/assets/js/vega-lite.min.js' type="text/javascript"></script>
+  
+    <script src='/assets/js/vega-embed.min.js' type="text/javascript"></script>
+  
+    <script src='/assets/js/justcharts.js' type="text/javascript"></script>
+  
 
 
 
