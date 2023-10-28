@@ -24,7 +24,7 @@
   <meta property="og:type" content="website">
   <meta property="og:title" content="Example in class">
   <meta property="og:description" content="Ongoing example">
-  <meta property="og:image" content="assets/pngs/cars.png">
+  <meta property="og:image" content="assets/pngs/interactive_legend.png">
 
   <title>Example in class</title>
   <meta name="description" content="Ongoing example">
@@ -76,7 +76,31 @@
     <div class="col-lg-10 mx-auto mt-5 markdown-body">
   <h1 id="example-including-vega-lite">Example including vega-lite</h1>
 
+<p>Example that came with the template:</p>
+
 <vegachart schema-url="/assets/json/cars.json" style="width: 100%"></vegachart>
+
+<h2 id="from-the-vega-editor">From the vega-editor</h2>
+
+<p>Simple barplot  specification:</p>
+
+<vegachart schema-url="/assets/json/firstViz_take2.json" style="width: 100%"></vegachart>
+
+<p>Something more complicated with interactivity:</p>
+
+<vegachart schema-url="/assets/json/interactive_legend.json" style="width: 100%"></vegachart>
+
+<h2 id="from-a-dictionary-in-altair-in-python">From a dictionary in Altair in Python</h2>
+
+<vegachart schema-url="/assets/json/chart1.json" style="width: 100%"></vegachart>
+
+<h3 id="static-side-by-side">Static side-by-side</h3>
+
+<vegachart schema-url="/assets/json/static_mobility.json" style="width: 100%"></vegachart>
+
+<h3 id="dashboard-side-by-side-with-from_dict-function">Dashboard side-by-side with <code class="language-plaintext highlighter-rouge">from_dict</code> function</h3>
+
+<vegachart schema-url="/assets/json/altair_mobility_data_dashboard.json" style="width: 100%"></vegachart>
 
 <!-- these are written in a combo of html and liquid -->
 
