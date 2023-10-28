@@ -45,7 +45,7 @@ author:
 
   github            : Yuxit2
 # gitlab            : your_username
- # instagram         : y_vette0002
+  instagram         : y_vette0002
 
 # kaggle            : your_username
 #  linkedin          : your_username
@@ -88,11 +88,11 @@ analytics:
 
 ### Buy me a coffee ###
 # See https://www.buymeacoffee.com/
-buymeacoffee: 
+# buymeacoffee: https://www.buymeacoffee.com/yuxitian20j
   enabled: false
-  username: 
+  username: Yuxi Tian
   color: "#007bff"
-  message: "Thank you for visiting."                    # Message to be displayed aside from the button for a few seconds.
+  message: "Ready to explore the unknown UNIVERSE"                    # Message to be displayed aside from the button for a few seconds.
   description: "Support me on Buy me a coffee!"
 
 
